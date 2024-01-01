@@ -1,9 +1,9 @@
-package vsphere
+package idrac
 
 import (
 	"testing"
 
-	"github.com/brngates/agent/pkg/integrations/vmware_exporter"
+	"github.com/grafana/agent/pkg/integrations/vmware_exporter"
 	"github.com/grafana/river"
 	"github.com/stretchr/testify/require"
 )
