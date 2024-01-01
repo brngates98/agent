@@ -3,7 +3,7 @@ package vsphere
 import (
 	"testing"
 
-	"github.com/brngates98/agent/pkg/integrations/vmware_exporter"
+	"github.com/brngates/agent/pkg/integrations/vmware_exporter"
 	"github.com/grafana/river"
 	"github.com/stretchr/testify/require"
 )
