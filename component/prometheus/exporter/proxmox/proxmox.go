@@ -3,10 +3,10 @@ package vsphere
 import (
 	"time"
 
+	"github.com/brngates/agent/pkg/integrations/vmware_exporter"
+	"github.com/brngates98/agent/pkg/integrations"
 	"github.com/grafana/agent/component"
 	"github.com/grafana/agent/component/prometheus/exporter"
-	"github.com/grafana/agent/pkg/integrations"
-	"github.com/grafana/agent/pkg/integrations/vmware_exporter"
 	"github.com/grafana/river/rivertypes"
 	config_util "github.com/prometheus/common/config"
 )
